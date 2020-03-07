@@ -1,0 +1,83 @@
+.header{
+    /*background-image: url(../image/img1.jpg);*/
+    background: url(../image/img3.png) no-repeat center center;
+    background-size: cover;
+    min-height: 150px;
+    position: relative;
+    border:2px solid cadetblue;
+    /*float: left;*/
+
+}
+.header .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 150px;
+    color:#fff;
+    background-color:rgba(9, 167, 182, 0.616);}
+.navbar li{
+    border:3px groove rgb(19, 221, 191);
+    outline: 3px inset rgb(95, 243, 243);
+    padding: 5px;
+    margin: 8px;
+    left: 8px;
+    position: relative;
+    top:15px;
+    font: bold 25px  "Arial Black" ,serif;
+    color:rgb(5, 80, 99);
+    display: inline;
+    float: left;
+}
+.logo{
+    background: url(../image/large1.png) no-repeat center center;
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+}
+
+li:hover{
+    color: cyan;
+    outline: 3px outset ;
+    cursor: pointer;
+}
+
+
+.container{
+    position:absolute;
+    top: 200px;
+    left: 0px;
+    z-index: -1;
+    width:100%;
+    height: 500px;
+    background: url(../image/img2.jpg) no-repeat center center;
+    background-size: cover;
+    opacity:.3;
+    
+}
+#about{
+    
+    position: absolute; 
+    top:50px;
+    left: 30px;
+    z-index: 10;
+    width: 80%;
+    height:200px ;
+    background-color:rgba(0,250,250,1);
+    border: 3px solid rgba(0,139,139,1);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    opacity: 1; !important
+    }
+
+ p{
+     color: rgb(1, 19, 19,1);
+     font:bold 1.5em sans-serif;
+ }   
+
+
+/*general*/
+.text-center{
+    text-align: center;
+}
